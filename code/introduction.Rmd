@@ -1,0 +1,39 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+
+# Introduction
+
+general bla bla on agroecosystems 
+
+like:
+
+on crops and plants
+Agriculture economics
+Plant diversification
+associated benefits 
+insentives from the governments urging this
+role of policy in this
+
+then mention some services
+
+
+then we will specify that we want to concertrate on the main service which is food
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ [@breton_encounter_2006]

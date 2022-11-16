@@ -1,0 +1,132 @@
+---
+title: " "
+output:
+  pdf_document:
+    number_sections: TRUE
+geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
+fontsize: 12pt
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+  - \usepackage{paralist}
+  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{fancyhdr}
+  - \usepackage{lastpage}
+  - \usepackage{dcolumn}
+  - \usepackage{natbib}\bibliographystyle{agsm}
+  - \usepackage[nottoc, numbib]{tocbibind}
+  - \usepackage{hyperref}
+  - \usepackage{color}   
+  - \usepackage{hyperref}
+  - \hypersetup{
+          colorlinks=true, 
+          linktoc=all,
+          linkcolor=blue,
+          }
+bibliography: bibliography.bib
+csl: apa-single-spaced
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tinytex)
+```
+\allsectionsfont{\centering}
+\subsectionfont{\raggedright}
+\subsubsectionfont{\raggedright}
+
+\pagenumbering{gobble}
+
+
+<!-- Cover page -->
+
+\begin{centering}
+
+\vspace{3cm}
+```{r uni_logo, echo=F, out.width="40%"}
+knitr::include_graphics("images/uniedlogo.png")
+```
+\vspace{1cm}
+
+\Huge
+{\bf UNIVERSITY OF MILAN}
+
+\vspace{1cm}
+
+
+{ Ecosystem Functions and Services}
+
+
+\vspace{1cm}
+
+\large
+
+\doublespacing
+{\bf 
+ CURRENT AND FUTURE ASSUMPTIONS OF CLIMATE CHANGE ON \\
+ FOOD AS AN AGROECOSYSTEM SERVICE
+ }
+
+\vspace{1 cm}
+
+\Large
+Victor Nyabuti Ong'era\\
+      \& \\
+  Elizabeth Kamalata
+      
+\vspace{1 cm}
+
+\normalsize
+\bf 2022/2023
+
+\end{centering}
+
+<!-- end of cover page  -->
+
+
+\newpage
+
+
+
+
+<!-- TOC -->
+\pagenumbering{roman}
+
+\newpage
+
+\centering
+\raggedright
+\newpage
+\tableofcontents
+
+<!-- TOC -->
+
+
+
+\newpage
+\pagenumbering{arabic}
+
+
+```{r intro, child = 'introduction.Rmd'}
+```
+
+```{r intro, child = 'Food.Rmd'}
+```
+
+```{r intro, child = 'Climate change.Rmd'}
+```
+
+
+
+```{r conclusion, child = 'conclusion.Rmd'}
+```
+
+
+
+```{r biblio, child = 'bibliography.Rmd'}
+```
+
+
+
+```{r appendix, child = 'appendix.Rmd'}
+```

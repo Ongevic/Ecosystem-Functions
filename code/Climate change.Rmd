@@ -1,0 +1,39 @@
+# Climate change  Manifestations
+what is it 
+
+
+
+## Temperature rise
+** I will do some R visualization here to show the global trend**
+
+bla bla and then we say that some of the most affected communitiees live in the global south 
+
+## Case Study
+We will select the subsharan Africa for some visualization
+
+The chunks of africa in the case study
+
+the different ecosystems in this areas(only main and famous one abd very briefly)
+
+Some Questions to be answered
+
+Surface covers 
+
+**Some NDVI CHANGE over time and what are new surface covers**
+
+climate generally
+
+**Is the temperature rising here in the specific area, Rainfall, deserticiation, Future trend.**
+
+
+from the trends what are the possible implications on agroecosystems (are we experiencing them yet,)
+
+## implications on agroecosystems
+
+**Data sets**
+
+Crutem
+
+From corpenicus
+
+USPA
